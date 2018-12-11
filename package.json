@@ -1,0 +1,17 @@
+{
+  "name": "claudia-dynamo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "claudia create --name claudia-dynamodb --region us-east-1 --api-module index  --policies policies",
+    "deploy": "claudia update"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.215.1",
+    "claudia-api-builder": "^3.0.2",
+    "dynamodb-doc": "^1.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "claudia-dynamodb-executor",
+    "name": "claudia-dynamodb",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "wa6lbvxbn8",
+    "module": "index"
+  }
+}
